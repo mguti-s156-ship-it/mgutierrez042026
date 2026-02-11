@@ -24,50 +24,33 @@
 
         .card {
             border: 1px solid #ccc;
-            background-color: chocolate;
             width: 200px;
             padding: 1rem;
             margin-bottom: 1rem;
             border-radius: 5px;
         }
-    </style>
 
-    <style>
-        #buttons {
-            border: 2px solid silver;
-            padding: 1rem;
-            background-color: blue;
-            width: 85%;
-            margin: auto;
-            display: flex;
-            justify-content: space-evenly;
-
-        }
-
-        #list {
-            background-color: lightblue;
-            border: 1px solid silver;
+        ul#list {
+            background-color: coral;
+            display: block;
             list-style-type: none;
+            padding: 1rem;
             display: flex;
             justify-content: space-around;
-            padding: 1rem;
-
         }
 
-        #cards {
+        #fbbuttons {
+            background-color: aliceblue;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        div#cards {
             background-color: aqua;
             padding: 1rem;
             display: flex;
             justify-content: center;
-        }
-
-        #linklist {
-            background-color: aquamarine;
-            display: flex;
-            justify-content: space-around;
-            list-style-type: none;
-            padding: 1rem;
-
         }
     </style>
 </head>
@@ -84,7 +67,7 @@
     </ul>
 
     <h2>Buttons</h2>
-    <div id="Buttons">
+    <div id="fbbuttons">
         <button type="button">Button 1</button>
         <button type="button">Button 2</button>
         <button type="button">Button 3</button>
@@ -93,15 +76,18 @@
     </div>
 
     <h2>Cards</h2>
+
     <div id="cards">
         <div class="card">
             <h3>Card Title 1</h3>
             <p>This is a description for card 1.</p>
         </div>
+
         <div class="card">
             <h3>Card Title 2</h3>
             <p>This is a description for card 1.</p>
         </div>
+
         <div class="card">
             <h3>Card Title 3</h3>
             <p>This is a description for card 1.</p>
@@ -109,7 +95,7 @@
     </div>
 
     <h2>Link Lists</h2>
-    <ul id="linklist">
+    <ul>
         <li><a href="https://google.com">Google</a></li>
         <li><a href="https://google.com">Google</a></li>
         <li><a href="https://google.com">Google</a></li>
