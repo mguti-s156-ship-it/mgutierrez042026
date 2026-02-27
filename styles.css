@@ -1,3 +1,11 @@
+/* Mobile View - Default */
+:root {
+    --primary-color: blueviolet;
+    --secondary-color: chartreuse;
+    --tertiary-color: crimson;
+    --main-font: arial;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,22 +18,23 @@ body {
     min-height: 10rem;
     max-width: 75rem;
     margin: auto;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 1rem;
 
 }
 
 #pageheader {
-    background-color: lightgreen;
+    background-color: var(--primary-color);
     min-height: auto;
-    padding: 1rem;
+    padding: .25rem;
 }
 
 #logo {
     width: 6.25rem;
     height: 6.25rem;
     background-color: none;
-    background-image: url(Images/);
+    background-image: url(Images/logosmall.png);
+    margin: auto;
 }
 
 #pageheader .container {
@@ -90,7 +99,7 @@ body {
 }
 
 #subfooter {
-    background-color: rgb(81, 37, 122);
+    background-color: var(--tertiary-color);
     min-height: 10rem;
     padding: 1rem;
     text-align: center;
@@ -101,4 +110,14 @@ audio {
     margin: auto;
     background-color: plum;
     border: 5px solid plum;
+}
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: aqua;
+    }
+
+    #logo {
+        margin: 0;
+    }
 }
