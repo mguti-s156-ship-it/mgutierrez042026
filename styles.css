@@ -76,6 +76,18 @@ body {
     padding: 1rem;
 }
 
+#worksapmples {
+    background-color: rgb(87, 186, 248);
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+#certificates {
+    background-color: rgb(87, 186, 248);
+    min-height: 10rem;
+    padding: 1rem;
+}
+
 #pagefooter {
     background-color: rgb(218, 70, 95);
     min-height: auto;
